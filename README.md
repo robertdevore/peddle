@@ -8,6 +8,8 @@ Peddle
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html
 
+![Peddle WordPress theme for Easy Digital Downloads](http://www.robertdevore.com/wp-content/uploads/2015/09/peddle-image.png)
+
 An Open Source WordPress theme for Easy Digital Downloads
 
 ## Description
