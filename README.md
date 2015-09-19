@@ -40,6 +40,7 @@ Looking for more details behind the theme that aren't included in this readme do
 ## Changelog
 
 ### 1.0.1
+* added full width page template
 * added code to change the login page logo to your logo image uploaded through the customizer
 
 ### 1.0.0
