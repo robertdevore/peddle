@@ -4,7 +4,7 @@ Peddle
 **Tags:** theme, templates  
 **Requires at least:** 3.4  
 **Tested up to:** 4.3.1  
-**Stable tag:** 1.0.0  
+**Stable tag:** 1.0.1  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,9 @@ Looking for more details behind the theme that aren't included in this readme do
 1. Activate the theme on the WordPress Themes dashboard
 
 ## Changelog
+
+### 1.0.1
+* added code to change the login page logo to your logo image uploaded through the customizer
 
 ### 1.0.0
 * Initial release
