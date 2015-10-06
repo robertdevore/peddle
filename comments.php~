@@ -21,7 +21,6 @@ if ( post_password_required() ) {
 ?>
 
 <div id="comments" class="comments-area">
-<?php do_action('peddle_comments_top'); ?>
 
 	<?php // You can start editing here -- including this comment! ?>
 
@@ -47,8 +46,6 @@ if ( post_password_required() ) {
 			</div><!-- .nav-links -->
 		</nav><!-- #comment-nav-above -->
 		<?php endif; // Check for comment navigation. ?>
-	
-		<?php do_action('peddle_commentlist_top'); ?>
 
 		<ol class="comment-list">
 			<?php
@@ -58,8 +55,6 @@ if ( post_password_required() ) {
 				) );
 			?>
 		</ol><!-- .comment-list -->
-
-		<?php do_action('peddle_commentlist_bottom'); ?>
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
 		<nav id="comment-nav-below" class="navigation comment-navigation" role="navigation">
@@ -84,5 +79,4 @@ if ( post_password_required() ) {
 
 	<?php comment_form(); ?>
 
-<?php do_action('peddle_comments_bottom'); ?>
 </div><!-- #comments -->

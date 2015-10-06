@@ -10,6 +10,7 @@
 get_header(); ?>
 
 	<div id="primary" class="col-lg-9 content-area">
+		<?php do_action('peddle_archive_top'); ?>
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
@@ -45,6 +46,7 @@ get_header(); ?>
 		<?php endif; ?>
 
 		</main><!-- #main -->
+		<?php do_action('peddle_archive_bottom'); ?>
 	</div><!-- #primary -->
 
 <?php get_sidebar(); ?>

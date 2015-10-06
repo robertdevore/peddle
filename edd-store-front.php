@@ -21,6 +21,7 @@ $products = new WP_Query( $product_args );
 get_header(); ?>
 
 	<div id="primary" class="col-lg-12 edd-pagetitle">
+		<?php do_action('peddle_eddstoreinfo_top'); ?>
 		<main id="main" class="site-main" role="main">
 			<div class="store-info">
 				<?php if ( get_theme_mod( 'peddle_edd_store_archives_title' ) ) : ?>
@@ -33,10 +34,12 @@ get_header(); ?>
 				<?php endif; ?>
 			</div><!-- /.store-info -->
 		</main><!-- #main -->
+		<?php do_action('peddle_eddstoreinfo_bottom'); ?>
 	</div><!-- #primary -->
 
 	<?php if ( $products->have_posts() ) : $i = 1; ?>
 		<div class="product-grid">
+		<?php do_action('peddle_eddproductgrid_top'); ?>
 			<?php while ( $products->have_posts() ) : $products->the_post(); ?>
 
 				<div class="col-lg-4 product">
@@ -82,6 +85,7 @@ get_header(); ?>
 
 				<?php $i+=1; ?>
 			<?php endwhile; ?>
+		<?php do_action('peddle_eddproductgrid_bottom'); ?>
 		</div><!-- /.product-grid clear -->
 		<div class="store-pagination">
 			<?php 					

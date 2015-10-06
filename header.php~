@@ -28,7 +28,6 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 site-branding">
-				<?php do_action('peddle_sitebranding_top'); ?>
 				<?php if ( get_theme_mod( 'peddle_logo' ) )  { ?>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_theme_mod( 'peddle_logo' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>"></a>
 				<?php } else { ?>
@@ -38,15 +37,12 @@
 						<h2 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h2>
 					<?php endif; ?>
 				<?php } // end peddle_logo check ?>
-				<?php do_action('peddle_sitebranding_bottom'); ?>
 				</div><!-- .site-branding -->
 				<div class="col-lg-8">
-				<?php do_action('peddle_navigation_top'); ?>
 					<nav id="site-navigation" class="main-navigation" role="navigation">
 						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><i class="fa fa-bars"></i></button>
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu', 'items_wrap' => my_nav_wrap() ) ); ?>
 					</nav><!-- #site-navigation -->
-				<?php do_action('peddle_navigation_bottom'); ?>
 				</div><!-- /.col-lg-8 -->
 			</div><!-- /.row -->
 	</header><!-- #masthead -->

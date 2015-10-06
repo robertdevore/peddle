@@ -10,7 +10,6 @@
 get_header(); ?>
 
 	<div id="primary" class="col-lg-9 content-area">
-		<?php do_action('peddle_404_top'); ?>
 		<main id="main" class="site-main" role="main">
 
 			<section class="error-404 not-found">
@@ -51,7 +50,6 @@ get_header(); ?>
 			</section><!-- .error-404 -->
 
 		</main><!-- #main -->
-		<?php do_action('peddle_404_bottom'); ?>
 	</div><!-- #primary -->
 
 <?php get_sidebar(); ?>

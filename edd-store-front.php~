@@ -1,7 +1,8 @@
 <?php
 /**
+ * Template Name: EDD Store Front
  *
- * The template for displaying the EDD archives.
+ * The template for displaying the EDD store front.
  *
  * @package Peddle
  */
@@ -38,7 +39,6 @@ get_header(); ?>
 
 	<?php if ( $products->have_posts() ) : $i = 1; ?>
 		<div class="product-grid">
-		<?php do_action('peddle_eddproductgrid_top'); ?>
 			<?php while ( $products->have_posts() ) : $products->the_post(); ?>
 
 				<div class="col-lg-4 product">
@@ -84,7 +84,6 @@ get_header(); ?>
 
 				<?php $i+=1; ?>
 			<?php endwhile; ?>
-		<?php do_action('peddle_eddproductgrid_bottom'); ?>
 		</div><!-- /.product-grid clear -->
 		<div class="store-pagination">
 			<?php 					

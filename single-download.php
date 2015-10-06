@@ -10,6 +10,7 @@
 get_header(); ?>
 
 	<div id="primary" class="col-lg-9 content-area">
+		<?php do_action('peddle_eddsingle_top'); ?>
 		<main id="main" class="site-main" role="main">
 
 		<?php while ( have_posts() ) : the_post(); ?>
@@ -26,6 +27,7 @@ get_header(); ?>
 		<?php endwhile; // End of the loop. ?>
 
 		</main><!-- #main -->
+		<?php do_action('peddle_eddsingle_bottom'); ?>
 	</div><!-- #primary -->
 
 <?php get_sidebar('edd'); ?>
