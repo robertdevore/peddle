@@ -39,9 +39,12 @@ Looking for more details behind the theme that aren't included in this readme do
 
 ## Changelog
 
+### 1.0.2
+* Added action hooks
+
 ### 1.0.1
-* added full width page template
-* added code to change the login page logo to your logo image uploaded through the customizer
+* Added full width page template
+* Added code to change the login page logo to your logo image uploaded through the customizer
 
 ### 1.0.0
 * Initial release
