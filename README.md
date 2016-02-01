@@ -3,7 +3,7 @@ Peddle
 **Contributors:** deviodigital  
 **Tags:** theme, templates  
 **Requires at least:** 3.4  
-**Tested up to:** 4.4.0  
+**Tested up to:** 4.4.1  
 **Stable tag:** 1.0.2  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html
@@ -18,9 +18,15 @@ This theme will allow you to utilize the Easy Digital Downloads plugin to sell d
 
 ## Live Demo &amp; Release Notes
 
-You can view the theme in action on the [live demo](http://www.deviodigital.com/demo/peddle/)
+*Please note:* Live demo is currently down while making a server move.
 
 Looking for more details behind the theme that aren't included in this readme doc? I've done a [write up](http://www.robertdevore.com/peddle-free-wordpress-theme-for-easy-digital-downloads) that gives a more thorough breakdown of the theme, it's built in options, and the road ahead.
+
+## Slackedd
+
+On 2.1.16 I released the WordPress plugin, Slackedd. This plugin lets you receive payment notifications from Easy Digital Downloads in your Slack channel of choice. Slackedd also has built in plugin update notifications for your WordPress dashboard so you'll never miss an update.
+
+[View Slackedd](http://www.robertdevore.com/slackedd/)
 
 ## Installation
 
