@@ -3,8 +3,8 @@ Peddle
 **Contributors:** deviodigital  
 **Tags:** theme, templates  
 **Requires at least:** 3.4  
-**Tested up to:** 4.4.1  
-**Stable tag:** 1.0.2  
+**Tested up to:** 4.4.2  
+**Stable tag:** 1.0.3  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,6 +44,9 @@ On 2.1.16 I released the WordPress plugin, Slackedd. This plugin lets you receiv
 1. Activate the theme on the WordPress Themes dashboard
 
 ## Changelog
+
+### 1.0.3
+* Added Github Updater compatibility for install of future theme releases
 
 ### 1.0.2
 * Added action hooks

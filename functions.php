@@ -295,3 +295,8 @@ function peddle_login_logo_url_title() {
 add_filter( 'login_headertitle', 'peddle_login_logo_url_title' );
 
 } // if get_theme_mod('peddle_logo')
+
+/**
+ * Require Github Updater plugin for theme update checks
+ */
+require get_template_directory() . '/inc/install-github-updater.php';
